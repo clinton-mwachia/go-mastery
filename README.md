@@ -1,6 +1,3 @@
-## **`README.md`** (Comprehensive Go Reference)
-
-````markdown
 # go-mastery
 
 Welcome to the **go-mastery**, an open-source guide covering the core features of the Go programming language. This repository serves as a structured learning resource for beginners and experienced developers.
@@ -57,6 +54,7 @@ func main() {
     fmt.Println("Hello, Go!")
 }
 ```
+
 ````
 
 Run it:
@@ -345,3 +343,4 @@ If you find this reference useful, consider supporting via **GitHub Sponsors**:
 ```
 
 ```
+````
