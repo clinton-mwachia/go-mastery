@@ -11,37 +11,77 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 
 ---
 
-## **📌 Table of Contents**
+## Table of Contents
 
-1. [Introduction](#-introduction)
-2. [Basic Syntax](#-basic-syntax)
-3. [Variables & Data Types](#-variables--data-types)
-4. [Functions](#-functions)
-5. [Structs & Interfaces](#-structs--interfaces)
-6. [Concurrency](#-concurrency)
-7. [Error Handling](#-error-handling)
-8. [Packages & Modules](#-packages--modules)
-9. [Testing](#-testing)
-10. [Advanced Topics](#-advanced-topics)
-11. [Projects](#-projects)
-12. [Contributing](#-contributing)
-13. [Support the Project](#-support-the-project)
+### Core Golang Features
+
+1. [Introduction](#introduction)
+2. [Basic Syntax](#basic-syntax)
+3. [Variables and Constants](#variables-and-constants)
+4. [Data Types](#data-types)
+5. [Operators](#operators)
+6. [Control Flow](#control-flow)
+7. [Functions](#functions)
+8. [Pointers](#pointers)
+9. [Structs and Methods](#structs-and-methods)
+10. [Interfaces](#interfaces)
+11. [Arrays and Slices](#arrays-and-slices)
+12. [Maps (Dictionaries)](#maps-dictionaries)
+13. [Concurrency (Goroutines & Channels)](#concurrency-goroutines--channels)
+14. [Error Handling](#error-handling)
+15. [File Handling](#file-handling)
+16. [Packages and Modules](#packages-and-modules)
+17. [Testing in Go](#testing-in-go)
+18. [Reflection](#reflection)
+19. [Web Development (HTTP)](#web-development-http)
+20. [Database Interaction](#database-interaction)
+21. [Advanced Topics](#advanced-topics)
+
+### Golang Data Structures
+
+22. [Lists (Using Slices)](#lists-using-slices)
+23. [Stacks](#stacks)
+24. [Queues](#queues)
+25. [Hash Tables (Maps)](#hash-tables-maps)
+26. [Graphs](#graphs)
+27. [Trees](#trees)
+28. [Heaps](#heaps)
+29. [Disjoint Set (Union-Find)](#disjoint-set-union-find)
+
+### Golang Algorithms
+
+30. [Searching Algorithms](#searching-algorithms)
+31. [Sorting Algorithms](#sorting-algorithms)
+32. [Graph Algorithms](#graph-algorithms)
+33. [Dynamic Programming](#dynamic-programming)
+34. [String Algorithms](#string-algorithms)
+35. [Cryptography](#cryptography)
 
 ---
 
-## **📖 1. Introduction**
+## Project Structure
 
-Go (or Golang) is an open-source, statically typed, compiled language designed for simplicity and efficiency.
+```
+go-mastery/
+├── README.md
+├── FUNDING.yml
+├── docs/
+├── projects/
+```
 
-### **🔹 Install Go**
+## Introduction
 
-- [Official Installation Guide](https://go.dev/doc/install)
+Go is a statically typed, compiled high-level general purpose programming language.
+
+### Install Go
+
+- [Official Installation Guide](https://go.dev/dl/)
 - Verify installation:
   ```sh
   go version
   ```
 
-### **🔹 Your First Go Program**
+### Your First Go Program
 
 Create a file `hello-world.go`:
 
@@ -55,17 +95,13 @@ func main() {
 }
 ```
 
-````
-
 Run it:
 
 ```sh
 go run hello-world.go
 ```
 
----
-
-## **📖 2. Basic Syntax**
+## Basic Syntax
 
 - **Package Declaration**: Every Go program starts with a `package` declaration.
 - **Imports**: Use `import` to include standard or third-party packages.
@@ -339,8 +375,3 @@ If you find this reference useful, consider supporting via **GitHub Sponsors**:
 ---
 
 ## **🚀 Happy Coding in Go!**
-
-```
-
-```
-````
