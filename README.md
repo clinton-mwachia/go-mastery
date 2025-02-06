@@ -65,6 +65,8 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 go-mastery/
 ├── README.md
 ├── FUNDING.yml
+|── LICENSE
+|── .gitignore
 ├── docs/
 ├── projects/
 ```
