@@ -13,4 +13,8 @@ func main() {
 	// Declaring a variable using the 'var' keyword.
 	var message string = "Go is awesome!"
 	fmt.Println(message)
+
+	// Declaring a variable using the shorthand ':=' keyword.
+	message2 := "Go is awesome too!"
+	fmt.Println(message2)
 }
