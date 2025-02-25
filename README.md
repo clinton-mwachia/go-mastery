@@ -372,7 +372,7 @@ Find them in the **[`projects/`](projects/)** directory.
 
 If you find this reference useful, consider supporting via **GitHub Sponsors**:
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-pink.svg)](https://github.com/sponsors/your-username)
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-pink.svg)](https://github.com/sponsors/clinton-mwachia)
 
 ---
 
