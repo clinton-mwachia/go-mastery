@@ -6,7 +6,6 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 
 - Covers Go's **fundamental concepts** and **advanced topics**
 - Includes **well-organized examples** for each topic
-- Provides **real-world projects** to apply Go concepts
 - Open-source and **community-driven**
 
 ---
@@ -68,7 +67,6 @@ go-mastery/
 |── LICENSE
 |── .gitignore
 ├── docs/
-├── projects/
 ```
 
 ## Introduction
@@ -351,20 +349,6 @@ func TestAdd(t *testing.T) {
 - Embedding
 - WebAssembly
 - Using `cgo` to interact with C code
-
----
-
-## **📌 11. Projects**
-
-Real-world Go projects included in this repo:
-
-- **To-Do App**
-- **CLI Tool**
-- **REST API**
-- **Desktop App (Fyne)**
-- **Microservices**
-
-Find them in the **[`projects/`](projects/)** directory.
 
 ---
 
