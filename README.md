@@ -241,9 +241,24 @@ func main() {
 
 ---
 
-## **📖 5. Structs & Interfaces**
+## Pointers
 
-### **🔹 Structs (Custom Data Types)**
+Pointers in Go allow us to work with memory addresses, enabling efficient function calls, avoiding unnecessary copying of large data structures, and modifying variables directly.
+
+```go
+  // Declaring a pointer
+    var ptr *int
+    num := 10
+    ptr = &num // Storing the address of num
+
+    fmt.Println("Value of num:", num)
+    fmt.Println("Pointer Address:", ptr)
+    fmt.Println("Value at Pointer Address:", *ptr)
+```
+
+## Structs and Methods
+
+### Structs
 
 ```go
 package main
@@ -261,7 +276,30 @@ func main() {
 }
 ```
 
-### **🔹 Interfaces (Polymorphism)**
+### Methods
+
+```go
+package main
+
+import "fmt"
+
+type Person struct {
+	Name string
+	Age  int
+}
+
+func (p Person) Greet() string {
+	return "Hello " + p.Name
+}
+
+func main() {
+	person := Person{Name: "James"}
+	greet := person.Greet()
+	fmt.Println(greet)
+}
+```
+
+### Interfaces
 
 ```go
 package main
