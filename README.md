@@ -397,7 +397,7 @@ func main() {
 }
 ```
 
-### **🔹 Channels (Communication)**
+### Channels
 
 ```go
 package main
