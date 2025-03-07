@@ -26,15 +26,16 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 10. [Interfaces](#interfaces)
 11. [Arrays and Slices](#arrays-and-slices)
 12. [Maps](#maps)
-13. [Concurrency (Goroutines & Channels)](#concurrency-goroutines--channels)
-14. [Error Handling](#error-handling)
-15. [File Handling](#file-handling)
-16. [Packages and Modules](#packages-and-modules)
-17. [Testing in Go](#testing-in-go)
-18. [Reflection](#reflection)
-19. [Web Development (HTTP)](#web-development-http)
-20. [Database Interaction](#database-interaction)
-21. [Advanced Topics](#advanced-topics)
+13. [Goroutines](#goroutines)
+14. [Channels](#channels)
+15. [Error Handling](#error-handling)
+16. [File Handling](#file-handling)
+17. [Packages and Modules](#packages-and-modules)
+18. [Testing in Go](#testing-in-go)
+19. [Reflection](#reflection)
+20. [Web Development (HTTP)](#web-development-http)
+21. [Database Interaction](#database-interaction)
+22. [Advanced Topics](#advanced-topics)
 
 ### Golang Data Structures
 
@@ -372,9 +373,9 @@ func main() {
 }
 ```
 
-## **📖 6. Concurrency**
+## Concurrency
 
-### **🔹 Goroutines**
+### Goroutines
 
 Run functions concurrently using `go` keyword:
 
