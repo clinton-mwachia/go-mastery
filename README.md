@@ -25,7 +25,7 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 9. [Structs and Methods](#structs-and-methods)
 10. [Interfaces](#interfaces)
 11. [Arrays and Slices](#arrays-and-slices)
-12. [Maps (Dictionaries)](#maps-dictionaries)
+12. [Maps](#maps)
 13. [Concurrency (Goroutines & Channels)](#concurrency-goroutines--channels)
 14. [Error Handling](#error-handling)
 15. [File Handling](#file-handling)
@@ -348,6 +348,28 @@ func main() {
 	slice2 := arr_slice[1:4]
 	fmt.Println("Slice from array:", slice2) // [20 30 40]
 
+```
+
+## Maps
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    // Initialize a map
+    m := make(map[string]int)
+
+    // Add key-value pairs
+    m["apple"] = 2
+    m["banana"] = 5
+
+    // Update a value
+    m["apple"] = 4
+
+    fmt.Println(m) // Output: map[apple:4 banana:5]
+}
 ```
 
 ## **📖 6. Concurrency**
