@@ -452,6 +452,20 @@ func main() {
   go mod init example.com/mymodule
   ```
 
+- Create a directory `hello`.
+
+- Add the code:-
+
+```go
+package hello
+
+import "fmt"
+
+func SayHello(){
+    fmt.Println("Hello")
+}
+```
+
 - Importing your module:
 
   ```go
