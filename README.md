@@ -444,7 +444,7 @@ func main() {
 
 ---
 
-## **📖 8. Packages & Modules**
+## Packages and Modules
 
 - Create a module:
 
