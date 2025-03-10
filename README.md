@@ -511,15 +511,6 @@ func TestAdd(t *testing.T) {
 
 ---
 
-## **📖 10. Advanced Topics**
-
-- Reflection
-- Embedding
-- WebAssembly
-- Using `cgo` to interact with C code
-
----
-
 ## **❤️ 12. Support the Project**
 
 If you find this reference useful, consider supporting via **GitHub Sponsors**:
