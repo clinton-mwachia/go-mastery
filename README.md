@@ -413,9 +413,9 @@ func main() {
 
 ---
 
-## **📖 7. Error Handling**
+## Error Handling
 
-### **🔹 Using `error` Interface**
+### Using `error` Interface
 
 ```go
 package main
