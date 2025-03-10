@@ -483,7 +483,7 @@ func SayHello(){
 
 ---
 
-## **📖 9. Testing**
+## Testing in Go
 
 - Write unit tests in `_test.go` files.
 
