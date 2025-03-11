@@ -67,7 +67,7 @@ go-mastery/
 ├── FUNDING.yml
 |── LICENSE
 |── .gitignore
-├── docs/
+├── Core Golang Features/
 ```
 
 ## Introduction
