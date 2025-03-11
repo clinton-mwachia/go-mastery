@@ -35,7 +35,7 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 19. [Reflection](#reflection)
 20. [Web Development (HTTP)](#web-development-http)
 21. [Database Interaction](#database-interaction)
-22. [Advanced Topics](#advanced-topics)
+22. [Generics](#generics)
 
 ### Golang Data Structures
 
@@ -68,6 +68,7 @@ go-mastery/
 |── LICENSE
 |── .gitignore
 ├── Core Golang Features/
+├── Examples/
 ```
 
 ## Introduction
