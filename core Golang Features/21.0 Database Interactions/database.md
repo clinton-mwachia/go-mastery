@@ -32,6 +32,8 @@ import (
 )
 ```
 
+**Create a `utils/user.go` file and add the functions**
+
 **3. Initialize Database and Create Table**
 
 Establish a connection to the SQLite database and create a table:
@@ -168,3 +170,7 @@ func main() {
     }
 }
 ```
+
+---
+
+HAPPY LEARNING!!
