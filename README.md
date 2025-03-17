@@ -39,7 +39,7 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 
 ### Golang Data Structures
 
-22. [Lists (Using Slices)](#lists-using-slices)
+22. [Lists](#lists)
 23. [Stacks](#stacks)
 24. [Queues](#queues)
 25. [Hash Tables (Maps)](#hash-tables-maps)
