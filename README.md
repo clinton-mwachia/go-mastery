@@ -42,7 +42,7 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 22. [Lists](#lists)
 23. [Stacks](#stacks)
 24. [Queues](#queues)
-25. [Hash Tables (Maps)](#hash-tables-maps)
+25. [Hash Tables](#hash-tables)
 26. [Graphs](#graphs)
 27. [Trees](#trees)
 28. [Heaps](#heaps)
