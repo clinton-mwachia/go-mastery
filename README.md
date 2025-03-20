@@ -68,6 +68,7 @@ go-mastery/
 |── LICENSE
 |── .gitignore
 ├── Core Golang Features/
+├── Data Structures/
 ├── Examples/
 ```
 
