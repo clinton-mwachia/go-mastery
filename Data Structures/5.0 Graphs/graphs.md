@@ -138,10 +138,4 @@ Below is a step-by-step guide to implementing a graph using an adjacency list in
 
 - **Edge List:** An edge list represents the graph as a slice of edges, where each edge is a pair of vertices. This method is simple but may not provide efficient edge existence checks. citeturn0search3
 
-**Libraries and Resources:**
-
-- **GoGraph:** A generic Go library for creating graph data structures and performing operations on them. It supports different kinds of graphs such as directed graphs, acyclic graphs, or trees. citeturn0search8
-
-- **Graph Algorithms:** For implementing graph algorithms like Breadth-First Search (BFS) and Depth-First Search (DFS), you can refer to tutorials that provide step-by-step guidance. citeturn0search6
-
 By understanding and implementing graphs in Go, you can effectively model and solve complex problems that involve relationships and connections
