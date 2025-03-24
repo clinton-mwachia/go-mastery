@@ -36,6 +36,9 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 20. [Web Development (HTTP)](#web-development-http)
 21. [Database Interaction](#database-interaction)
 22. [Generics](#generics)
+23. [Go:generate](#go-generate)
+24. [grpc](#grpc)
+25. [RabbitMQ](#rabbit-mq)
 
 ### Golang Data Structures
 
