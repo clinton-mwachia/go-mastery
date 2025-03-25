@@ -1,0 +1,19 @@
+app:
+  name: "MyGoWebApp"
+  version: "1.0.0"
+  env: "development" # Options: development, staging, production
+
+server:
+  host: "localhost"
+  port: 8080
+  read_timeout: 5 # in seconds
+  write_timeout: 10 # in seconds
+
+database:
+  driver: "postgres"
+  host: "localhost"
+  port: 5432
+  user: "dbuser"
+  password: "dbpassword"
+  name: "mygodb"
+  ssl_mode: "disable" # Options: disable, require, verify-ca, verify-full
