@@ -141,4 +141,18 @@ This snippet reads the contents of `example.txt` from the embedded `static` dire
 
 - **Exclusions**: By default, files starting with `.` or `_` are excluded from embedding. To include such files, use the `all:` prefix in your pattern (e.g., `//go:embed all:static`).
 
+## Considerations
+
+- Relative Paths: Ensure that the paths specified in the //go:embed directive match the actual directory structure. The paths are relative to the directory containing main.go.​
+
+- Content Types: Setting the appropriate Content-Type headers ensures that browsers correctly interpret and render the files.​
+
+- Error Handling: Proper error handling is implemented to manage cases where embedded files cannot be read.​
+
+## Conclusion
+
+By embedding your HTML and CSS files directly into your Go application, you create a self-contained binary that simplifies deployment and ensures all necessary assets are included. This approach is particularly useful for small to medium-sized web applications where managing external static files might be cumbersome.
+
+## Reference
+
 For more detailed information, refer to the official Go documentation on the `embed` package: [embed](https://pkg.go.dev/embed)
