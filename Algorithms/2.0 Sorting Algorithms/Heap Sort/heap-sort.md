@@ -61,3 +61,17 @@ func main() {
 _Explanation_:
 
 - The `HeapSort` function first transforms the slice into a max-heap.
+
+## Time Complexity
+
+- Best: O(n log n)​
+- Average: O(n log n)​
+- Worst: O(n log n)​
+
+## Space Complexity
+
+> O(1)​
+
+## Use Case
+
+Efficient and in-place; suitable for large datasets
