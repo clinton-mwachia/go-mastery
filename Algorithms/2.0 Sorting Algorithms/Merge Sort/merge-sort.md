@@ -58,3 +58,17 @@ _Explanation_:
 
 - The `MergeSort` function recursively divides the slice into halves until each sub-slice contains a single element.
 - The `merge` function then combines these sorted sub-slices back together in order, resulting in a fully sorted slice.
+
+## Time Complexity
+
+- Best: O(n log n)​
+- Average: O(n log n)​
+- Worst: O(n log n)​
+
+## Space Complexity
+
+> O(n)​
+
+## Use Case
+
+Consistent performance; suitable for large datasets; requires additional memory for merging.
