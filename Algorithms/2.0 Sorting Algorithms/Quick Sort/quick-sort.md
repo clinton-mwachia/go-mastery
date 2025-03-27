@@ -62,3 +62,17 @@ func main() {
 **Usage:**
 
 In the `main` function, we define a slice `data` with unsorted integers. We call `QuickSort` to sort the slice and then print the sorted array.
+
+## Time Complexity
+
+- Best: O(n log n)​
+- Average: O(n log n)​
+- Worst: O(n²)​
+
+## Space Complexity
+
+> O(log n)​
+
+## Use Case
+
+Generally fast; preferred for large datasets; performance can degrade with poorly chosen pivots.
