@@ -35,3 +35,17 @@ _Explanation_:
 
 - The `SelectionSort` function iterates over the slice, selecting the smallest element in the unsorted region and swapping it with the first unsorted element.
 - This process continues until the entire slice is sorted.
+
+## Time Complexity
+
+- Best: O(n²)​
+- Average: O(n²)​
+- Worst: O(n²)​
+
+## Space Complexity
+
+> O(1)​
+
+## Use Case
+
+Simple implementation; inefficient for large datasets.
