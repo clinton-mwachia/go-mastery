@@ -36,3 +36,17 @@ _Explanation_:
 
 - The `InsertionSort` function iterates over the slice, inserting each element into its correct position relative to the already sorted portion of the slice.
 - This process continues until the entire slice is sorted.
+
+## Time Complexity
+
+- Best: O(n)​
+- Average: O(n²)​
+- Worst: O(n²)​
+
+## Space Complexity
+
+> O(1)​
+
+## Use Case
+
+Efficient for small datasets or nearly sorted data.
