@@ -38,8 +38,8 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 22. [Generics](#generics)
 23. [Go:generate](#go-generate)
 24. [Go:embed](#go-embed)
-25. [grpc](#grpc)
-26. [RabbitMQ](#rabbit-mq)
+25. [Convertions](#convertion)
+26. [String Operations](#string-operation)
 
 ### Golang Data Structures
 
@@ -58,8 +58,7 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 31. [Sorting Algorithms](#sorting-algorithms)
 32. [Graph Algorithms](#graph-algorithms)
 33. [Dynamic Programming](#dynamic-programming)
-34. [String Algorithms](#string-algorithms)
-35. [Cryptography](#cryptography)
+34. [Cryptography](#cryptography)
 
 ---
 
