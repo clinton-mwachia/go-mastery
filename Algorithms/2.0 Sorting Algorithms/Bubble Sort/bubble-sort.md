@@ -43,3 +43,14 @@ func main() {
 **Usage:**
 
 In the `main` function, we define a slice `data` with unsorted integers. We call `BubbleSort` to sort the slice and then print the sorted array.
+
+## Time Complexity
+
+- Best: O(n)​
+- Average: O(n²)​
+- Worst: O(n²)​
+- Space Complexity: O(1)​
+
+## Use Case
+
+Educational purposes; not suitable for large datasets due to inefficiency.
