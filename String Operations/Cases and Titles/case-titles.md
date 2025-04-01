@@ -36,7 +36,7 @@ Lowercase: hello, world!
 
 **2. ToTitle Function**
 
-The `strings` package provides the `ToTitle` function, which converts all Unicode letters in a string to their title case. However, it's important to note that `strings.Title` has been deprecated due to its inconsistent handling of word boundaries. citeturn0search0
+The `strings` package provides the `ToTitle` function, which converts all Unicode letters in a string to their title case. However, it's important to note that `strings.Title` has been deprecated due to its inconsistent handling of word boundaries.
 
 _Example:_
 
@@ -107,7 +107,7 @@ Original: hello, world!
 Title Case: Hello, World!
 ```
 
-This approach provides more accurate title casing by considering language-specific rules and word boundaries. citeturn0search0
+This approach provides more accurate title casing by considering language-specific rules and word boundaries.
 
 **Documentation References:**
 
