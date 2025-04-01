@@ -112,6 +112,6 @@ This approach provides more accurate title casing by considering language-specif
 **Documentation References:**
 
 - [strings package - GoDoc](https://pkg.go.dev/strings)
-- [golang.org/x/text/cases package](https://pkg.go.dev/golang.org/x/text/cases)
+- [text/cases package](https://pkg.go.dev/golang.org/x/text/cases)
 
 By utilizing these functions, you can effectively perform case conversions in your Go programs, ensuring that strings are formatted as needed for your application's requirements.
