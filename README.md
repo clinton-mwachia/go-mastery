@@ -40,7 +40,6 @@ Welcome to the **go-mastery**, an open-source guide covering the core features o
 24. [Go:embed](#go-embed)
 25. [Convertions](#convertion)
 26. [String Operations](#string-operation)
-27. [Machine Learning](#machine-learning)
 
 ### Golang Data Structures
 
