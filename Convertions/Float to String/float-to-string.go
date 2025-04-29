@@ -6,11 +6,8 @@ import (
 )
 
 func main() {
-	str := "invalid"
-	floatValue, err := strconv.ParseFloat(str, 64)
-	if err != nil {
-		fmt.Println("Conversion failed:", err)
-		return
-	}
-	fmt.Printf("Converted float value: %f\n", floatValue)
+	float := 20.22
+	stringValue := strconv.FormatFloat(float, 'f', -1, 64)
+
+	fmt.Printf("Converted float value: %s\n", stringValue)
 }
