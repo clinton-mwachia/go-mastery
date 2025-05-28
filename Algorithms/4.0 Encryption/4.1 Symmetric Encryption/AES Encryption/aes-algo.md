@@ -1,16 +1,5 @@
 ## 🔐 AES Encryption
 
-### 📁 Folder Structure
-
-```
-aes_encryption_example/
-├── main.go
-├── README.md
-└── secret.txt
-```
-
----
-
 ### 📄 `main.go`
 
 ```go
