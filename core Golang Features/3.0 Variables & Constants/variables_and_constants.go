@@ -4,6 +4,9 @@ package main
 // Importing the fmt package for formatted output.
 import "fmt"
 
+// define a global variable
+var Global string
+
 func main() {
 	// Declaring a variable using the 'var' keyword
 	var name string = "Gopher"
@@ -31,4 +34,15 @@ func main() {
 
 	// Trying to modify a constant (Uncommenting this will cause an error)
 	// pi = 3.14 // Error: cannot assign to pi
+
+	// Global variable
+	Global = "Global"
+	fmt.Println(Global)
+
+	Test()
+}
+
+func Test() {
+	Global = "Global from Test function"
+	fmt.Println(Global)
 }
