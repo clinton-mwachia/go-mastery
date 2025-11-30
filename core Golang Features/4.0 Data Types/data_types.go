@@ -36,6 +36,8 @@ func main() {
 	// complex numbers
 	c128 := complex(5, 7)
 
+	c64 := complex64(c128)
+
 	// Printing the values
 	fmt.Println("Integer values:", a, b, c, d, e)
 	fmt.Println("Unsigned integers:", u, u8, u16, u32, u64)
@@ -44,6 +46,7 @@ func main() {
 	fmt.Println("String:", message)
 	fmt.Println("Rune:", r)
 	fmt.Println("Byte:", bChar)
-	fmt.Println("Complex Numbers:", c128)
-	fmt.Printf("Type of c1: %T\n", c128)
+	fmt.Println("Complex No 128:", c128)
+	fmt.Println("Complex No 64:", c64)
+	fmt.Printf("Type of c1: %T\n", c64)
 }
