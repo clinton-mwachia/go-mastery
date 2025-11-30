@@ -34,7 +34,7 @@ func main() {
 	var bChar byte = 'A'
 
 	// complex numbers
-	c1 := complex(5, 7)
+	c128 := complex(5, 7)
 
 	// Printing the values
 	fmt.Println("Integer values:", a, b, c, d, e)
@@ -44,6 +44,6 @@ func main() {
 	fmt.Println("String:", message)
 	fmt.Println("Rune:", r)
 	fmt.Println("Byte:", bChar)
-	fmt.Println("Complex Numbers:", c1)
-	fmt.Printf("Type of c1: %T\n", c1)
+	fmt.Println("Complex Numbers:", c128)
+	fmt.Printf("Type of c1: %T\n", c128)
 }
