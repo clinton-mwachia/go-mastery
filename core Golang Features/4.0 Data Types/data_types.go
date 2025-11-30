@@ -33,6 +33,9 @@ func main() {
 	// Byte (alias for uint8, represents ASCII characters)
 	var bChar byte = 'A'
 
+	// complex numbers
+	c1 := complex(5, 7)
+
 	// Printing the values
 	fmt.Println("Integer values:", a, b, c, d, e)
 	fmt.Println("Unsigned integers:", u, u8, u16, u32, u64)
@@ -41,4 +44,6 @@ func main() {
 	fmt.Println("String:", message)
 	fmt.Println("Rune:", r)
 	fmt.Println("Byte:", bChar)
+	fmt.Println("Complex Numbers:", c1)
+	fmt.Printf("Type of c1: %T\n", c1)
 }
