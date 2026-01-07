@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// cHello prints a greeting message.
-void cHello()
+/* add 2 numbers */
+int add(int a, int b)
 {
-    printf("Hello from external C file!\n");
+    return a + b;
 }
