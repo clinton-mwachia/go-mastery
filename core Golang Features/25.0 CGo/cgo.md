@@ -10,17 +10,17 @@ Let's start with a straightforward example where we define a C function within a
 package main
 
 /*
-#include <stdio.h>
-
-// cHello prints a greeting message.
-void cHello() {
-    printf("Hello from C!\n");
-}
+#include "math.h"
 */
 import "C"
+import "fmt"
 
 func main() {
-    C.cHello()
+	addResult := C.add(2, 6)
+	fmt.Println("Add Result from C:", addResult)
+
+	subResult := C.sub(2, 6)
+	fmt.Println("Sub Result from C:", subResult)
 }
 ```
 
@@ -35,7 +35,7 @@ func main() {
 To build and run the program, use the standard Go commands:
 
 ```sh
-go run main.go
+go run .
 ```
 
 **Using External C Files**
