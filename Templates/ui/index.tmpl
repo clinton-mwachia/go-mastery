@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Go Todo App</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+
+    <h1>My Todo List</h1>
+
+    <!-- Form to Add a New Todo -->
+    <form action="/add" method="POST">
+        <input type="text" name="title" placeholder="What needs to be done?" required autofocus>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Todo List -->
+    <ul>
+        {{ range .Todos }}
+            <li>
+                <span class="{{ if .Done }}completed{{ end }}">{{ .Title }}</span>
+                
+                <!-- Form to Toggle Status -->
+                <form action="/toggle" method="POST" style="margin: 0;">
+                    <input type="hidden" name="id" value="{{ .ID }}">
+                    <button type="submit" class="toggle-btn {{ if .Done }}done{{ end }}">
+                        {{ if .Done }}✓ Done{{ else }}Mark Done{{ end }}
+                    </button>
+                </form>
+             <!-- Form to Delete Todo -->
+                <form action="/delete" method="POST" style="margin: 0;">
+                    <input type="hidden" name="id" value="{{ .ID }}">
+                    <button type="submit" style="background: #ff4d4f;">Delete</button>
+                </form>
+
+            </li>
+        {{ else }}
+            <p style="color: #666; font-style: italic;">No tasks yet! Add One Above</p>
+        {{ end }}
+    </ul>
+
+</body>
+</html>
