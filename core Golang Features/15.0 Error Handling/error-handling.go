@@ -13,8 +13,11 @@ func validateAge(age int) error {
 }
 
 func main() {
-	err := validateAge(16)
+	age := 16
+	err := validateAge(age)
 	if err != nil {
 		fmt.Println("Error:", err)
+	} else {
+		fmt.Println("Age: ", age)
 	}
 }
