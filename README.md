@@ -2,7 +2,7 @@
 
 Welcome to the **go-mastery**, an open-source guide covering the core features of the Go programming language. This repository serves as a structured learning resource for beginners and experienced developers.
 
-## **🚀 Features**
+## ** Features**
 
 - Covers Go's **fundamental concepts** and **advanced topics**
 - Includes **well-organized examples** for each topic
